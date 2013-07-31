@@ -46,5 +46,5 @@ when "ubuntu", "debian"
 end
 
 
-iptables_rule "all_established"
+iptables_rule "all_ip"
 iptables_rule "all_icmp"

@@ -44,7 +44,3 @@ when "ubuntu", "debian"
     variables :iptables_save_file => iptables_save_file
   end
 end
-
-
-iptables_rule "all_ip"
-iptables_rule "all_icmp"
